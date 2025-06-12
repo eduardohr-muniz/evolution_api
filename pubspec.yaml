@@ -1,0 +1,24 @@
+name: evolution_api
+description: "A new Flutter package project."
+version: 0.0.1
+homepage: "https://github.com/paipfood/evolution-api"
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: any #^5.8.0+1
+  talker_dio_logger: any #^4.8.0
+  talker: any #^4.8.0
+  socket_io_client: any #^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any #^5.0.0
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
